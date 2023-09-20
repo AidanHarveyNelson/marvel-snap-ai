@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "marvel-snap-ai"
+version = "0.1.0"
+description = ""
+authors = ["Aidan Harvey-Nelson <firzen2550@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pygame = "^2.5.2"
+gym = "^0.26.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
