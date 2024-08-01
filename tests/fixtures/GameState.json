@@ -1,0 +1,133 @@
+﻿{
+  "$id": "1",
+  "$type": "CubeUnity.App.State.Game, App.State",
+  "LocalGame": {
+    "$id": "2",
+    "$type": "CubeUnity.App.State.LocalGame, App.State",
+    "ClientGameInfo": {
+      "$id": "3",
+      "$type": "CubeUnity.App.State.ClientGameInfo, App.State",
+      "OngoingVfxChanges": {
+        "$id": "4",
+        "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[CubeGame.VfxChange, SecondDinner.CubeGame]], mscorlib"
+      },
+      "NewCardDefIdsEncountered": []
+    },
+    "ClientPlayerInfo": {
+      "$id": "5",
+      "$type": "CubeUnity.App.State.ClientPlayerInfo, App.State",
+      "ClientStageRequests": [],
+      "CardsDrawn": [],
+      "CardsPlayed": []
+    },
+    "GameState": {
+      "$id": "6",
+      "$type": "CubeGame.Game, SecondDinner.CubeGame.Logic",
+      "ApplicationVersion": {
+        "$id": "7",
+        "$type": "Cube.ApplicationVersion, SecondDinner.Cube",
+        "Major": 29,
+        "Minor": 12
+      },
+      "DataVersion": 3,
+      "Players": [],
+      "Locations": [],
+      "StartingLocationDefIds": [],
+      "EntityIdToEntity": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.Int32, mscorlib],[CubeGame.Entity, SecondDinner.CubeGame.Logic]], mscorlib"
+      },
+      "PlayersStagingInOrder": [],
+      "Changes": [],
+      "StakesMultiplierEndOfGame": 1,
+      "StakesMultiplierNextTurnByGame": 1,
+      "ClientState": true
+    },
+    "GameStateAtPreStartTurn": {
+      "$id": "8",
+      "$type": "CubeGame.Game, SecondDinner.CubeGame.Logic",
+      "ApplicationVersion": {
+        "$id": "9",
+        "$type": "Cube.ApplicationVersion, SecondDinner.Cube",
+        "Major": 29,
+        "Minor": 12
+      },
+      "Players": [],
+      "Locations": [],
+      "StartingLocationDefIds": [],
+      "EntityIdToEntity": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.Int32, mscorlib],[CubeGame.Entity, SecondDinner.CubeGame.Logic]], mscorlib"
+      },
+      "PlayersStagingInOrder": [],
+      "Changes": [],
+      "StakesMultiplierEndOfGame": 1,
+      "StakesMultiplierNextTurnByGame": 1,
+      "ClientState": true
+    }
+  },
+  "RemoteGame": {
+    "$id": "10",
+    "$type": "CubeUnity.App.State.RemoteGame, App.State",
+    "ClientGameInfo": {
+      "$id": "11",
+      "$type": "CubeUnity.App.State.ClientGameInfo, App.State",
+      "OngoingVfxChanges": {
+        "$id": "12",
+        "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[CubeGame.VfxChange, SecondDinner.CubeGame]], mscorlib"
+      },
+      "NewCardDefIdsEncountered": [],
+      "MaxTimeToCheckNewCardsEncountered": 20.0
+    },
+    "ClientPlayerInfo": {
+      "$id": "13",
+      "$type": "CubeUnity.App.State.ClientPlayerInfo, App.State",
+      "ClientStageRequests": [],
+      "CardsDrawn": [],
+      "CardsPlayed": []
+    },
+    "GameState": {
+      "$id": "14",
+      "$type": "CubeGame.Game, SecondDinner.CubeGame.Logic",
+      "ApplicationVersion": {
+        "$id": "15",
+        "$type": "Cube.ApplicationVersion, SecondDinner.Cube",
+        "Major": 29,
+        "Minor": 12
+      },
+      "DataVersion": 3,
+      "Id": "471d4b6f-6903-4960-b986-4172171465ee",
+      "LeagueDefId": "Ranked",
+      "Players": [],
+      "Locations": [],
+      "StartingLocationDefIds": [],
+      "EntityIdToEntity": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.Int32, mscorlib],[CubeGame.Entity, SecondDinner.CubeGame.Logic]], mscorlib"
+      },
+      "PlayersStagingInOrder": [],
+      "Changes": [],
+      "StakesMultiplierEndOfGame": 1,
+      "StakesMultiplierNextTurnByGame": 1,
+      "ClientState": true
+    },
+    "GameStateAtPreStartTurn": {
+      "$id": "16",
+      "$type": "CubeGame.Game, SecondDinner.CubeGame.Logic",
+      "ApplicationVersion": {
+        "$id": "17",
+        "$type": "Cube.ApplicationVersion, SecondDinner.Cube",
+        "Major": 29,
+        "Minor": 12
+      },
+      "Players": [],
+      "Locations": [],
+      "StartingLocationDefIds": [],
+      "EntityIdToEntity": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.Int32, mscorlib],[CubeGame.Entity, SecondDinner.CubeGame.Logic]], mscorlib"
+      },
+      "PlayersStagingInOrder": [],
+      "Changes": [],
+      "StakesMultiplierEndOfGame": 1,
+      "StakesMultiplierNextTurnByGame": 1,
+      "ClientState": true
+    }
+  }
+}
