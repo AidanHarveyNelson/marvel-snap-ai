@@ -7,8 +7,6 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.10"
-ray = {extras = ["rllib"], version = "^2.34.0"}
-torch = "^2.4.0"
 pyautogui = "^0.9.54"
 
 [tool.poetry.group.dev.dependencies]
