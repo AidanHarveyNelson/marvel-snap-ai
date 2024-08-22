@@ -1,0 +1,65 @@
+﻿{"RemoteGame": {
+    "$id": "10",
+    "$type": "CubeUnity.App.State.RemoteGame, App.State",
+    "ClientGameInfo": {
+        "$id": "11",
+        "$type": "CubeUnity.App.State.ClientGameInfo, App.State",
+        "MaxTimeToCheckNewCardsEncountered": 20.0,
+        "NewCardDefIdsEncountered": [],
+        "OngoingVfxChanges": {
+            "$id": "12",
+            "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[CubeGame.VfxChange, SecondDinner.CubeGame]], mscorlib"
+        }
+    },
+    "ClientPlayerInfo": {
+        "$id": "13",
+        "$type": "CubeUnity.App.State.ClientPlayerInfo, App.State",
+        "CardsDrawn": [],
+        "CardsPlayed": [],
+        "ClientStageRequests": []
+    },
+    "GameState": {
+        "$id": "14",
+        "$type": "CubeGame.Game, SecondDinner.CubeGame.Logic",
+        "ApplicationVersion": {
+            "$id": "15",
+            "$type": "Cube.ApplicationVersion, SecondDinner.Cube",
+            "Major": 31,
+            "Minor": 7
+        },
+        "Changes": [],
+        "ClientState": true,
+        "DataVersion": 2,
+        "EntityIdToEntity": {
+            "$type": "System.Collections.Generic.Dictionary`2[[System.Int32, mscorlib],[CubeGame.Entity, SecondDinner.CubeGame.Logic]], mscorlib"
+        },
+        "LeagueDefId": "Ranked",
+        "Locations": [],
+        "Players": [],
+        "PlayersStagingInOrder": [],
+        "StakesMultiplierEndOfGame": 1,
+        "StakesMultiplierNextTurnByGame": 1,
+        "StartingLocationDefIds": []
+    },
+    "GameStateAtPreStartTurn": {
+        "$id": "16",
+        "$type": "CubeGame.Game, SecondDinner.CubeGame.Logic",
+        "ApplicationVersion": {
+            "$id": "17",
+            "$type": "Cube.ApplicationVersion, SecondDinner.Cube",
+            "Major": 31,
+            "Minor": 7
+        },
+        "Changes": [],
+        "ClientState": true,
+        "EntityIdToEntity": {
+            "$type": "System.Collections.Generic.Dictionary`2[[System.Int32, mscorlib],[CubeGame.Entity, SecondDinner.CubeGame.Logic]], mscorlib"
+        },
+        "Locations": [],
+        "Players": [],
+        "PlayersStagingInOrder": [],
+        "StakesMultiplierEndOfGame": 1,
+        "StakesMultiplierNextTurnByGame": 1,
+        "StartingLocationDefIds": []
+    }
+}}
