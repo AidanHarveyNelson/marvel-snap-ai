@@ -58,3 +58,8 @@ Action Items:
 - Should action masking be used [link](https://costa.sh/blog-a-closer-look-at-invalid-action-masking-in-policy-gradient-algorithms.html)`C:\Users\<username>\AppData\LocalLow\Second Dinner\SNAP\Standalone\States\nvprod`
 - Define schema for hot encoding and how it will interpret it
 - Define schema for the return values to tell the client what actions to take
+
+
+## Documentation
+
+[How to setup an external application client](https://docs.ray.io/en/latest/rllib/rllib-env.html#external-application-clients)
